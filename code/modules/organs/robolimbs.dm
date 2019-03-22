@@ -21,7 +21,7 @@ var/datum/robolimb/basic_robolimb
 	var/has_eyes = TRUE
 	var/can_feel_pain
 	var/skintone
-	var/list/species_cannot_use = list(SPECIES_RESOMI)
+	var/list/species_cannot_use = list()
 	var/list/restricted_to = list()
 	var/list/applies_to_part = list() //TODO.
 	var/list/allowed_bodytypes = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_SKRELL, SPECIES_UNATHI)
@@ -147,7 +147,6 @@ var/datum/robolimb/basic_robolimb
 	can_eat = 1
 	skintone = 1
 	unavailable_at_fab = 1
-<<<<<<< HEAD
 	species_cannot_use = list(SPECIES_IPC)
 
 /datum/robolimb/grayson
@@ -167,14 +166,3 @@ var/datum/robolimb/basic_robolimb
 	applies_to_part = list(BP_HEAD)
 	unavailable_at_fab = 1
 	allowed_bodytypes = list(SPECIES_IPC)
-=======
-	
-/datum/robolimb/resomi
-	company = "Small prosthetic"
-	desc = "This prosthetic is small and fit for nonhuman proportions."
-	icon = 'icons/mob/human_races/cyberlimbs/resomi/resomi_main.dmi'
-	restricted_to = list(SPECIES_RESOMI)
-	species_cannot_use = list()
-	applies_to_part = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_FOOT, BP_R_FOOT, BP_L_HAND, BP_R_HAND)
-	
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie

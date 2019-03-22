@@ -20,15 +20,8 @@
 	var/ks1type = /obj/item/device/encryptionkey
 	var/ks2type = null
 
-<<<<<<< HEAD
 /obj/item/device/radio/headset/Initialize()
 	. = ..()
-=======
-	sprite_sheets = list(SPECIES_RESOMI = 'icons/mob/species/resomi/ears.dmi')
-
-/obj/item/device/radio/headset/New()
-	..()
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 	internal_channels.Cut()
 	for(var/T in encryption_keys)
 		if(ispath(T))

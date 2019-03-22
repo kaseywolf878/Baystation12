@@ -21,7 +21,6 @@
 #define IS_VOX     2
 #define IS_SKRELL  3
 #define IS_UNATHI  4
-<<<<<<< HEAD
 #define IS_XENOS   5
 #define IS_SLIME   6
 #define IS_NABBER  7
@@ -48,23 +47,6 @@
 #define CE_SQUEAKY		 "squeaky"      // Helium voice. Squeak squeak.
 #define CE_THIRDEYE      "thirdeye"     // Gives xray vision.
 #define CE_SEDATE        "sedate"       // Applies sedation effects, i.e. paralysis, inability to use items, etc.
-=======
-#define IS_TAJARA  5
-#define IS_XENOS   6
-#define IS_RESOMI  7
-#define IS_SLIME   8
-
-#define CE_STABLE "stable" // Inaprovaline
-#define CE_ANTIBIOTIC "antibiotic" // Spaceacilin
-#define CE_BLOODRESTORE "bloodrestore" // Iron/nutriment
-#define CE_PAINKILLER "painkiller"
-#define CE_ALCOHOL "alcohol" // Liver filtering
-#define CE_ALCOHOL_TOXIC "alcotoxic" // Liver damage
-#define CE_SPEEDBOOST "gofast" // Hyperzine
-#define CE_PULSE      "xcardic" // increases or decreases heart rate
-#define CE_NOPULSE    "heartstop" // stops heartbeat
-#define CE_ANTIVIRAL    "antiviral" // suppresses effects of virus effects
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 //reagent flags
 #define IGNORE_MOB_SIZE 0x1

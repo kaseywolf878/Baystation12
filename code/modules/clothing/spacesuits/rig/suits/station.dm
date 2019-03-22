@@ -150,8 +150,6 @@
 	offline_vision_restriction = TINT_HEAVY
 	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE // this is passed to the rig suit components when deployed, including the helmet.
 
-	sprite_sheets = list(SPECIES_RESOMI = 'icons/mob/species/resomi/back.dmi')
-
 	helm_type = /obj/item/clothing/head/helmet/space/rig/ce
 	glove_type = /obj/item/clothing/gloves/rig/ce
 
@@ -293,11 +291,7 @@
 /obj/item/clothing/head/helmet/space/rig/hazard
 	light_overlay = "helmet_light_dual"
 	camera = /obj/machinery/camera/network/security
-<<<<<<< HEAD
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
-=======
-	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_TAJARA,SPECIES_UNATHI) //still needs Resomi sprites
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/item/clothing/suit/space/rig/hazard
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)

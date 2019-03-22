@@ -105,13 +105,6 @@
 	new /obj/item/clothing/shoes/sandal(src)
 	new /obj/item/clothing/shoes/sandal(src)
 	new /obj/item/clothing/shoes/sandal(src)
-<<<<<<< HEAD
-=======
-	new /obj/item/clothing/under/resomi(src)
-	new /obj/item/clothing/under/resomi/white(src)
-	return
-
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/structure/closet/wardrobe/orange
 	name = "prison wardrobe"

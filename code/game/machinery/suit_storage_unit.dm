@@ -672,11 +672,7 @@
 	)
 
 	//Species that the suits can be configured to fit.
-<<<<<<< HEAD
 	var/list/species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
-=======
-	var/list/species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_TAJARA,SPECIES_RESOMI)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 	var/decl/item_modifier/target_modification
 	var/target_species
@@ -710,7 +706,6 @@
 	name = "Engineering suit cycler"
 	model_text = "Engineering"
 	req_access = list(access_construction)
-<<<<<<< HEAD
 	available_modifications = list(/decl/item_modifier/space_suit/engineering, /decl/item_modifier/space_suit/atmos)
 	species = list(SPECIES_HUMAN, SPECIES_SKRELL, SPECIES_UNATHI) //Add Unathi when sprites exist for their suits.
 
@@ -720,76 +715,47 @@
 		/decl/item_modifier/space_suit/atmos/alt,
 		/decl/item_modifier/space_suit/hazard
 	)
-=======
-	departments = list("Engineering","Atmos")
-	species = list(SPECIES_HUMAN,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_RESOMI) //Add Unathi when sprites exist for their suits.
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/machinery/suit_cycler/mining
 	name = "Mining suit cycler"
 	model_text = "Mining"
 	req_access = list(access_mining)
-<<<<<<< HEAD
 	available_modifications = list(/decl/item_modifier/space_suit/mining)
 	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
-=======
-	departments = list("Mining")
-	species = list(SPECIES_HUMAN,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_RESOMI)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/machinery/suit_cycler/science
 	name = "Excavation suit cycler"
 	model_text = "Excavation"
 	req_access = list(access_xenoarch)
-<<<<<<< HEAD
 	available_modifications = list(/decl/item_modifier/space_suit/science)
 	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
-=======
-	departments = list("Science")
-	species = list(SPECIES_HUMAN,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_RESOMI)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/machinery/suit_cycler/security
 	name = "Security suit cycler"
 	model_text = "Security"
 	req_access = list(access_security)
-<<<<<<< HEAD
 	available_modifications = list(/decl/item_modifier/space_suit/security, /decl/item_modifier/space_suit/security/alt)
 	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
 
 /obj/machinery/suit_cycler/security/alt
 	available_modifications = list(/decl/item_modifier/space_suit/security/alt)
-=======
-	departments = list("Security")
-	species = list(SPECIES_HUMAN,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_RESOMI)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/machinery/suit_cycler/medical
 	name = "Medical suit cycler"
 	model_text = "Medical"
 	req_access = list(access_medical)
-<<<<<<< HEAD
 	available_modifications = list(/decl/item_modifier/space_suit/medical)
 	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
 
 /obj/machinery/suit_cycler/medical/alt
 	available_modifications = list(/decl/item_modifier/space_suit/medical/alt)
-=======
-	departments = list("Medical")
-	species = list(SPECIES_HUMAN,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_RESOMI)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/machinery/suit_cycler/syndicate
 	name = "Nonstandard suit cycler"
 	model_text = "Nonstandard"
 	req_access = list(access_syndicate)
-<<<<<<< HEAD
 	available_modifications = list(/decl/item_modifier/space_suit/mercenary)
 	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
-=======
-	departments = list("Mercenary")
-	species = list(SPECIES_HUMAN,SPECIES_TAJARA,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_RESOMI)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 	can_repair = 1
 
 /obj/machinery/suit_cycler/pilot

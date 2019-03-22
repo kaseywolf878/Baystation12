@@ -153,12 +153,7 @@ var/list/ai_verbs_default = list(
 	add_language(LANGUAGE_SOL_COMMON, 1)
 	add_language(LANGUAGE_UNATHI, 1)
 	add_language(LANGUAGE_SKRELLIAN, 1)
-<<<<<<< HEAD
 	add_language(LANGUAGE_LUNAR, 1)
-=======
-	add_language(LANGUAGE_RESOMI, 1)
-	add_language(LANGUAGE_TRADEBAND, 1)
->>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 	add_language(LANGUAGE_GUTTER, 1)
 	add_language(LANGUAGE_SIGN, 0)
 	add_language(LANGUAGE_INDEPENDENT, 1)
