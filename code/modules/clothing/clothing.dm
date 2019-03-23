@@ -171,6 +171,7 @@
 	w_class = ITEM_SIZE_TINY
 	throwforce = 2
 	slot_flags = SLOT_EARS
+	sprite_sheets = list(SPECIES_RESOMI = 'icons/mob/species/resomi/ears.dmi')
 
 /obj/item/clothing/ears/update_clothing_icon()
 	if (ismob(src.loc))
@@ -234,10 +235,16 @@ BLIND     // can't see anything
 	var/see_invisible = -1
 	var/light_protection = 0
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_eyes_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_eyes_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_eyes_unathi.dmi',
 	)
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/eyes.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/eyes.dmi',
+		)
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/item/clothing/glasses/get_icon_state(mob/user_mob, slot)
 	if(item_state_slots && item_state_slots[slot])
@@ -269,10 +276,15 @@ BLIND     // can't see anything
 	attack_verb = list("challenged")
 	species_restricted = list("exclude",SPECIES_NABBER, SPECIES_UNATHI,SPECIES_VOX, SPECIES_VOX_ARMALIS)
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_hands_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_hands_vox_armalis.dmi',
 		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_hands_gas.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_hands_unathi.dmi',
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/gloves.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/gloves.dmi',
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 		)
 	blood_overlay_type = "bloodyhands"
 
@@ -384,9 +396,14 @@ BLIND     // can't see anything
 	var/on = 0
 
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_head_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_head_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_head_unathi.dmi',
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/head.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/head.dmi'
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 		)
 	blood_overlay_type = "helmetblood"
 
@@ -496,9 +513,14 @@ BLIND     // can't see anything
 	slot_flags = SLOT_MASK
 	body_parts_covered = FACE|EYES
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_mask_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_mask_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_mask_unathi.dmi',
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/masks.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/masks.dmi',
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 		)
 
 	var/voicechange = 0
@@ -584,9 +606,14 @@ BLIND     // can't see anything
 	var/overshoes = 0
 	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS)
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_feet_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_feet_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_feet_unathi.dmi',
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/shoes.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/shoes.dmi',
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 		)
 	blood_overlay_type = "shoeblood"
 
@@ -668,10 +695,15 @@ BLIND     // can't see anything
 	w_class = ITEM_SIZE_NORMAL
 
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_suit_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_suit_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_suit_unathi.dmi',
 		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_suit_gas.dmi',
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/suit.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/suit.dmi'
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 		)
 
 /obj/item/clothing/suit/update_clothing_icon()
@@ -722,11 +754,17 @@ BLIND     // can't see anything
 	var/rolled_down = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
 	var/rolled_sleeves = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_under_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_under_vox_armalis.dmi',
 		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_under_gas.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_unathi.dmi',
 	)
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/uniform.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/uniform.dmi'
+		)
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 	//convenience var for defining the icon state for the overlay used when the clothing is worn.
 	//Also used by rolling/unrolling.

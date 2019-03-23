@@ -280,6 +280,7 @@
 #define CORPSE_CAN_REENTER 1
 #define CORPSE_CAN_REENTER_AND_RESPAWN 2
 
+<<<<<<< HEAD
 #define SPECIES_HUMAN       "Human"
 #define SPECIES_DIONA       "Diona"
 #define SPECIES_VOX         "Vox"
@@ -334,3 +335,14 @@
 
 #define ROBOT_MODULE_TYPE_GROUNDED "grounded"
 #define ROBOT_MODULE_TYPE_FLYING   "flying"
+=======
+#define SPECIES_HUMAN "Human"
+#define SPECIES_RESOMI "Resomi"
+#define SPECIES_TAJARA "Tajara"
+#define SPECIES_DIONA "Diona"
+#define SPECIES_VOX "Vox"
+#define SPECIES_IPC "Machine"
+#define SPECIES_UNATHI "Unathi"
+#define SPECIES_SKRELL "Skrell"
+#define SPECIES_NABBER "Nabber"
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie

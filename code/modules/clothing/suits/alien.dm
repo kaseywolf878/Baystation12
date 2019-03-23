@@ -29,6 +29,7 @@
 	icon_state = "zhan_scarf"
 	body_parts_covered = HEAD|FACE
 
+<<<<<<< HEAD
 /obj/item/clothing/shoes/sandal/xeno/caligae
 	name = "caligae"
 	desc = "A pair of sandals modelled after the ancient Roman caligae."
@@ -78,6 +79,19 @@
 	icon_state = "leadercape"
 
 //Voxclothing
+=======
+//Resomi clothing
+
+/obj/item/clothing/suit/storage/toggle/Resomicoat
+ 	name = "small coat"
+ 	desc = "A coat that seems too small to fit a human."
+ 	icon_state = "resomicoat"
+ 	item_state = "resomicoat"
+ 	icon_open = "resomicoat_open"
+ 	icon_closed = "resomicoat"
+ 	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO|LEGS
+ 	species_restricted = list(SPECIES_RESOMI)
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 
 /obj/item/clothing/suit/armor/vox_scrap
 	name = "rusted metal armor"

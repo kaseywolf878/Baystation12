@@ -10,8 +10,13 @@
 	desc = "an ultra rare hat. It commands a certain respect."
 	icon_state = "petehat"
 	sprite_sheets = list(
+<<<<<<< HEAD
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_head_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_head_vox_armalis.dmi'
+=======
+		SPECIES_VOX = 'icons/mob/species/vox/head.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/head.dmi'
+>>>>>>> parent of beda3b5e20... Merge pull request #17518 from Zuhayr/byebyebirdie
 		)
 
 /obj/item/clothing/head/collectable/slime
